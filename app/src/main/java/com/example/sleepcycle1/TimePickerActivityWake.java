@@ -6,7 +6,7 @@ import android.provider.AlarmClock;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.NumberPicker;
+import com.shawnlin.numberpicker.NumberPicker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
