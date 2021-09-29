@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sleep Cycle 1</string>
+    <string name="opt1">When should I wake up</string>
+    <string name="opt1_1">I know my bedtime</string>
+    <string name="opt2">When should I sleep</string>
+    <string name="opt2_1">I know when to wake up</string>
+    <string name="opt3">Sleep now</string>
+    <string name="opt3_1">When to wake up if you sleep now</string>
+</resources>
