@@ -139,12 +139,12 @@ public class TimePickerActivitySleep extends AppCompatActivity {
                 }
 
                 // if hour is not 12 add 12 to it
-                if (isPM == true && hour != 12 ) {
+                if (isPM && hour != 12 ) {
                     hour += 12;
                 }
 
                 // if AM is selected and hour = 12 make it 0
-                else if (isPM == false && hour == 12) {
+                else if (!isPM && hour == 12) {
                     hour = 0;
                 }
 
