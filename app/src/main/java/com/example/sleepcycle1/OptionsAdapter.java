@@ -50,7 +50,7 @@ public class OptionsAdapter extends RecyclerView.Adapter<OptionsAdapter.OptionsV
     }
 
     private void openTimePickerActivity() {
-        Intent intent = new Intent(mContext, TimePickerActivityWake.class);
+        Intent intent = new Intent(mContext, TimePickerActivitySleep.class);
         mContext.startActivity(intent);
     }
 

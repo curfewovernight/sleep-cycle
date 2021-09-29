@@ -15,7 +15,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 
 
-public class TimePickerActivityWake extends AppCompatActivity {
+public class TimePickerActivitySleep extends AppCompatActivity {
 
     //func to get closest multiple to currentMinute from given number
     static int closestMultiple(int currentMinute, int multiplier){
@@ -34,7 +34,7 @@ public class TimePickerActivityWake extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_time_picker_wake);
+        setContentView(R.layout.activity_time_picker);
 
         setTitle("When will you go to bed?");
 

@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SleepCycle1">
         <activity
-            android:name=".TimePickerActivityWake"
+            android:name=".TimePickerActivitySleep"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
